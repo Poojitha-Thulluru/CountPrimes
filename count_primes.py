@@ -12,7 +12,6 @@ def get_prime_count(num: int) -> int:
     count = 0
     for num in range(2, num):
         if is_prime(num):
-            print(num)
             count += 1
     return count
 
